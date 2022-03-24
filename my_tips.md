@@ -14,4 +14,14 @@ curl https://v2.wttr.in/London
 find . -size  0 -print -delete
 ```
 
+* Kill a specific port
+
+For example, MySQL running on 3306
+
+```{console}
+kill $(lsof -t -i:3306)
+```
+
+
+
 
