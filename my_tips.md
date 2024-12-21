@@ -22,6 +22,15 @@ For example, MySQL running on 3306
 kill $(lsof -t -i:3306)
 ```
 
+- Use the _seq_ command to generate a series of numbers
+
+```sh
+# You don't. Use e.g. seq for that, because brace expansion is performed before any other expansions and eval is evil :-)
+
+a=5
+
+seq 1 $a
+```
 
 
 
