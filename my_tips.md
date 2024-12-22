@@ -31,6 +31,10 @@ a=5
 
 seq 1 $a
 ```
+- Get the type of a file with the _file_ command
 
+```sh
+file epl # Returns: epl: DuckDB database file, version 64
+```
 
 
